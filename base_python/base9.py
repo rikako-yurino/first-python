@@ -31,5 +31,27 @@ print(list_a)
 # list_a.clear()
 # print(list_a)
 
+#remove, pop, count, index
+list_a = [0,1,1,2,2,3,3,3,4]
+list_a.remove(3)
+print(list_a)
+value = list_a.pop()
+print(list_a, value)
+print(list_a.count(0))
+print(list_a.index(2))
 
+#copy
+print(list_a)
+list_b = list_a.copy()
+list_b[0] = 'AAAAA'
+print(list_a)
+
+#sort, reverse
+list_a = ['banana', 'apple', 'lemon', 'grape']
+
+print(list_a)
+list_a.sort()
+print(list_a)
+list_a.reverse()
+print(list_a)
 
